@@ -23,3 +23,7 @@ tr {
     margin: 1rem 0;
     font-weight: bold;
 }
+
+.selected-row {
+    background-color: aqua !important;
+}
