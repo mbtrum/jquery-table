@@ -47,7 +47,7 @@ $(document).ready(function () {
         row += '<td>' + person.FirstName + '</td>'
         row += '<td>' + person.LastName + '</td>'
         row += '</tr>'
-        $('.table tr:last').after(row)
+        $('.table tbody').append(row)
 
         row_count++
     })
